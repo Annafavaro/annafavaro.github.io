@@ -157,7 +157,10 @@ nav a {
   text-decoration: none;
   font-size: 15px;
   padding: 7px 9px;
-  border-radius: 9px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
   transition: background 0.15s ease, color 0.15s ease;
 }
 
@@ -468,3 +471,34 @@ li {
   font-weight: 700;
   white-space: nowrap;
 }
+
+
+.nav-icon {
+  width: 27px;
+  height: 27px;
+  border-radius: 999px;
+  border: 1.4px solid rgba(185, 77, 114, 0.38);
+  color: var(--link-dark);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  background: transparent;
+}
+
+.nav-icon svg {
+  width: 14px;
+  height: 14px;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+nav a:hover .nav-icon {
+  border-color: var(--link-dark);
+  background: rgba(185, 77, 114, 0.05);
+}
+
+
