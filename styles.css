@@ -500,8 +500,6 @@ nav a:hover .nav-icon {
   border-color: var(--link-dark);
   background: rgba(185, 77, 114, 0.05);
 }
-
-
 .pub-year {
   margin: 30px 0 14px 0;
   font-size: 20px;
