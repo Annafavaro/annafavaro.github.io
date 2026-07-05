@@ -229,16 +229,17 @@ p {
   gap: 24px;
   margin-bottom: 16px;
   padding: 17px 18px;
-  border: 1px solid transparent;
+  border: 1px solid rgba(234, 215, 223, 0.75);
   border-radius: 16px;
-  background: linear-gradient(180deg, rgba(255, 250, 252, 0.88), rgba(255, 255, 255, 0.88));
+  background: linear-gradient(180deg, rgba(255, 250, 252, 0.92), rgba(255, 255, 255, 0.92));
+  box-shadow: 0 6px 18px rgba(84, 37, 58, 0.035);
   transition: border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
 }
 
 .entry:hover {
-  border-color: rgba(185, 77, 114, 0.20);
+  border-color: rgba(185, 77, 114, 0.22);
   transform: translateY(-1px);
-  box-shadow: var(--shadow-light);
+  box-shadow: 0 10px 26px rgba(84, 37, 58, 0.07);
 }
 
 .entry:last-child {
